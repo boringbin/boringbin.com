@@ -1,0 +1,16 @@
+{
+  "name": "boringbin.com",
+  "private": true,
+  "scripts": {
+    "check": "prettier --check .",
+    "fix": "prettier --write .",
+    "dev": "wrangler dev",
+    "build": "wrangler build",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "prettier": "3.6.2",
+    "wrangler": "4.43.0"
+  },
+  "packageManager": "bun@1.3.0"
+}
